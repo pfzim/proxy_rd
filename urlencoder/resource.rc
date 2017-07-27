@@ -1,0 +1,125 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLGMN DIALOGEX 0, 0, 284, 81
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Free.NET url encoder 2002 (c)oded by dEmon"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "encode",IDC_ENC,175,66,50,11,BS_FLAT
+    PUSHBUTTON      "quit",IDCANCEL,227,66,50,11,BS_FLAT
+    EDITTEXT        IDC_EDIT1,27,4,250,12,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT2,27,19,250,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    CTEXT           "IN",IDC_STATIC,7,4,18,12,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    CTEXT           "OUT",IDC_STATIC,7,34,18,12,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LTEXT           "build# 666",IDC_BUILD,7,69,39,8
+    EDITTEXT        IDC_EDIT3,27,48,250,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CTEXT           "OUT",IDC_STATIC,7,48,18,12,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "decode",IDC_DEC,123,66,50,11,BS_FLAT
+    EDITTEXT        IDC_EDIT4,27,34,250,12,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    CTEXT           "OUT",IDC_STATIC,7,19,18,12,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DLGMN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 277
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 77
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN                ICON    DISCARDABLE     "main.ico"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
